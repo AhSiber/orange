@@ -1,0 +1,87 @@
+@charset "UTF-8" ; 
+
+@font-face {
+    font-family: 'b-nazanin';
+    src: url('BNazanin.ttf') format("truetype");
+}
+
+body{ 
+    font-family: 'b-nazanin';
+    font-size: xx-large;
+    margin-top: 10%;
+}
+.orange-dish{ 
+    background-color: orange; 
+    opacity: 0.6; 
+    width: 230px; 
+    height: 50px; 
+    border-radius: 5px;
+    margin: 10px auto;
+    direction: rtl;
+    padding: 2px;
+}
+    .orange-dish::before{ 
+        content: " + ";
+    }
+
+.orange-text{ 
+    background-color: orange; 
+    opacity: 0.6; 
+    width: 230px; 
+    height: 50px; 
+    border-radius: 5px;
+    margin: 10px auto;
+    direction: rtl;
+    padding: 2px;
+}
+    .orange-text::before { 
+        content: "- ";
+    }
+
+.orange-re { 
+    background-color: orange; 
+    opacity: 0.6; 
+    width: 230px; 
+    height: 50px; 
+    border-radius: 5px;
+    margin: 10px auto;
+    direction: rtl;
+    padding: 2px;
+}
+    .orange-re::before{ 
+        content: "+ ";
+    }
+
+.see-nogholy{ 
+    background-color: rgb(4, 0, 255); 
+    opacity: 0.6; 
+    width: 120px; 
+    height: 50px; 
+    border-radius: 5px;
+    margin: 10px auto;
+    direction: rtl;
+    padding: 2px;
+    text-align: center;
+}
+    .see-nogholy::before{ 
+        content: " -";
+    }
+
+.chesh-ngholy { 
+    background-color: orange; 
+    opacity: 0.6; 
+    width: 230px; 
+    height: 50px; 
+    border-radius: 5px;
+    margin: 10px auto;
+    direction: rtl;
+    padding: 2px;
+}
+    .chesh-ngholy::before{ 
+        content: " + ";
+    }
+
+.img-github{ 
+    margin: 10px auto; 
+    display: block;
+}
