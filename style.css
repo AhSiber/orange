@@ -1,13 +1,15 @@
 @charset "UTF-8" ; 
 
 @font-face {
-    font-family: 'b-nazanin';
-    src: url('BNazanin.ttf') format("truetype");
+    font-family: 'yekan';
+    src: url('yekan.ttf') format("truetype");
+    src: url('yekan.eot') format("eot");
+    src: url('yekan.woff') format("woff");
 }
 
 body{ 
-    font-family: 'b-nazanin';
-    font-size: xx-large;
+    font-family: 'yekan';
+    font-size: x-large;
     margin-top: 10%;
 }
 .orange-dish{ 
