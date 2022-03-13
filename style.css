@@ -83,7 +83,16 @@ body{
         content: " + ";
     }
 
-.img-github{ 
-    margin: 10px auto; 
-    display: block;
+a{text-decoration: none;}
+
+#img-git{
+    text-align: center;
+    display: block; 
+    font-size: 45px;
+    color: slategray;
+}
+
+#img-git:hover{ 
+    color: black;
+    transition: 0.4s;
 }
